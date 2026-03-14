@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/events")
-@CrossOrigin("*")
+@CrossOrigin(origins="https://calender-event-manager-frontend.onrender.com")
 public class EventController {
 
     private final EventService eventService;
